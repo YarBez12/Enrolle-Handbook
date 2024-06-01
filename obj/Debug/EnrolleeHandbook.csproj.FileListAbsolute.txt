@@ -1,0 +1,73 @@
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\EnrolleeHandbook.exe.config
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\EnrolleeHandbook.exe
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\EnrolleeHandbook.pdb
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.csproj.AssemblyReference.cache
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Properties.Resources.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.csproj.GenerateResource.cache
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.csproj.CoreCompileInputs.cache
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.exe
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.pdb
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.MainForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.CourseForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.UniversitiesCollectionForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.CoursesCollectionForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.UniversityForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.CalculatorForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Buffers.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Memory.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Text.Json.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.ValueTuple.dll
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Buffers.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Memory.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Text.Json.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\bin\Debug\System.ValueTuple.xml
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\Enrollee.ED721BD9.Up2Date
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.AddUniversityForm.resources
+C:\Users\Yaroslav\source\repos\EnrolleeHandbook\obj\Debug\EnrolleeHandbook.Forms.AddCourseForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\allUniversities.json
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\EnrolleeHandbook.exe.config
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\EnrolleeHandbook.exe
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\EnrolleeHandbook.pdb
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Buffers.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Memory.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Text.Json.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.ValueTuple.dll
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Buffers.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Memory.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Text.Json.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\bin\Debug\System.ValueTuple.xml
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.csproj.AssemblyReference.cache
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.AddCourseForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.AddUniversityForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.CalculatorForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.CourseForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.MainForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.UniversitiesCollectionForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.CoursesCollectionForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Forms.UniversityForm.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.Properties.Resources.resources
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.csproj.GenerateResource.cache
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.csproj.CoreCompileInputs.cache
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\Enrollee.ED721BD9.Up2Date
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.exe
+C:\Users\Yaroslav\source\repos\КУРСОВА довідник абітурієнта 1\obj\Debug\EnrolleeHandbook.pdb
