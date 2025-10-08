@@ -1,18 +1,67 @@
 ﻿<Properties StartupConfiguration="{A249D28D-E57D-4761-AE47-2507CB0E9A0E}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EnrolleeHandbook PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Forms/CourseForm.Designer.cs">
+    <Files>
+      <File FileName="Controller/CollectionCreator.cs" Line="27" Column="1" />
+      <File FileName="Controller/FormController.cs" Line="720" Column="12" />
+      <File FileName="Controller/InitialData.cs" Line="29" Column="30" />
+      <File FileName="Controller/JsonController.cs" Line="25" Column="35" />
+      <File FileName="Forms/AddCourseForm.cs" Line="30" Column="26" />
+      <File FileName="Forms/AddCourseForm.resx" Line="23" Column="37" />
+      <File FileName="Forms/AddCourseForm.Designer.cs" Line="625" Column="15" />
+      <File FileName="Models/Course.cs" Line="80" Column="40" />
+      <File FileName="Models/CoursesCollection.cs" Line="16" Column="16" />
+      <File FileName="Models/Location.cs" Line="24" Column="42" />
+      <File FileName="Models/University.cs" Line="116" Column="13" />
+      <File FileName="Models/UnivesitiesCollection.cs" Line="100" Column="1" />
+      <File FileName="App.config" Line="1" Column="1" />
+      <File FileName="packages.config" Line="12" Column="2" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Forms/AddUniversityForm.cs" Line="19" Column="26" />
+      <File FileName="Forms/AddUniversityForm.resx" Line="22" Column="50" />
+      <File FileName="Forms/AddUniversityForm.Designer.cs" Line="370" Column="55" />
+      <File FileName="Forms/CalculatorForm.cs" Line="1" Column="1" />
+      <File FileName="Forms/CalculatorForm.resx" Line="23" Column="41" />
+      <File FileName="Forms/CalculatorForm.Designer.cs" Line="441" Column="2" />
+      <File FileName="Forms/CourseForm.cs" Line="65" Column="22" />
+      <File FileName="Forms/CourseForm.resx" Line="21" Column="39" />
+      <File FileName="Forms/CourseForm.Designer.cs" Line="250" Column="16" />
+      <File FileName="Forms/CoursesCollectionForm.Designer.cs" Line="119" Column="28" />
+      <File FileName="Forms/MainForm.Designer.cs" Line="107" Column="33" />
+      <File FileName="Forms/UniversitiesCollectionForm.Designer.cs" Line="459" Column="18" />
+      <File FileName="Forms/UniversityForm.Designer.cs" Line="450" Column="14" />
+      <File FileName="Properties/Settings.settings" Line="1" Column="1" />
+      <File FileName="Properties/Resources.resx" Line="1" Column="1" />
+      <File FileName="Properties/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="EnrolleeHandbook" selected="True" />
+          <Node name="EnrolleeHandbook">
+            <Node name="EnrolleeHandbook" selected="True">
+              <Node name="Controller" expanded="True" />
+              <Node name="Forms">
+                <Node name="AddCourseForm.cs" expanded="True" />
+                <Node name="AddUniversityForm.cs" expanded="True" />
+                <Node name="CalculatorForm.cs" expanded="True" />
+                <Node name="CourseForm.cs" expanded="True" />
+                <Node name="CoursesCollectionForm.cs" expanded="True" />
+                <Node name="MainForm.cs" expanded="True" />
+                <Node name="UniversitiesCollectionForm.cs" expanded="True" />
+                <Node name="UniversityForm.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.EnrolleeHandbook PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

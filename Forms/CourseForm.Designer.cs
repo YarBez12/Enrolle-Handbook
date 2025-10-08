@@ -164,9 +164,10 @@
             this.coefDataGridView.Name = "coefDataGridView";
             this.coefDataGridView.ReadOnly = true;
             this.coefDataGridView.RowHeadersVisible = false;
-            this.coefDataGridView.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.coefDataGridView.Size = new System.Drawing.Size(720, 58);
+            this.coefDataGridView.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.coefDataGridView.Size = new System.Drawing.Size(860, 70);
             this.coefDataGridView.TabIndex = 9;
+            this.coefDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             // 
             // Column2
             // 
@@ -241,17 +242,17 @@
             // 
             // notesTextBox
             // 
-            this.notesTextBox.Location = new System.Drawing.Point(15, 427);
+            this.notesTextBox.Location = new System.Drawing.Point(15, 439);
             this.notesTextBox.Multiline = true;
             this.notesTextBox.Name = "notesTextBox";
-            this.notesTextBox.Size = new System.Drawing.Size(466, 131);
+            this.notesTextBox.Size = new System.Drawing.Size(466, 115);
             this.notesTextBox.TabIndex = 11;
             // 
             // noteLabel
             // 
             this.noteLabel.AutoSize = true;
             this.noteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.noteLabel.Location = new System.Drawing.Point(15, 404);
+            this.noteLabel.Location = new System.Drawing.Point(15, 416);
             this.noteLabel.Name = "noteLabel";
             this.noteLabel.Size = new System.Drawing.Size(74, 20);
             this.noteLabel.TabIndex = 10;
