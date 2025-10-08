@@ -25,7 +25,7 @@ namespace EnrolleeHandbook.Models
         public bool Added { get; set; }
 
         public University(List<Course> courses,
-            string name = "Харківський національний університет радіоелектроніки",
+            string name = "Kharkiv National University of Radio Electronics",
             Location address = null, 
             int rating = 1000,  
             int foundationYear = 2000, 
@@ -104,16 +104,16 @@ namespace EnrolleeHandbook.Models
         public void WriteInformationToFile(StreamWriter writer)
         {
             writer.WriteLine(Name);
-            writer.WriteLine($"Адреса: {Address.ToString()}");
-            writer.WriteLine($"Рейтинг: {Rating}");
-            writer.WriteLine($"Кількість спеціальностей: {CorsesCount}");
-            writer.WriteLine($"Середній конкурсний бал: {StringAveragePoint}");
-            writer.WriteLine($"Мінімальний конкурсний бал: {MinimumPoint.ToString("0.##")}");
-            writer.WriteLine($"Рік заснування: {FoundationYear}");
-            writer.WriteLine(IsWithHostel ? "Наявний гуртожиток" : "Гуртожитку немає");
-            writer.WriteLine($"Веб-сайт: {Site}");
+            writer.WriteLine($"Address: {Address.ToString()}");
+            writer.WriteLine($"Rating: {Rating}");
+            writer.WriteLine($"Number of courses: {CorsesCount}");
+            writer.WriteLine($"Average competitive score: {StringAveragePoint}");
+            writer.WriteLine($"Minimum competitive score: {MinimumPoint.ToString("0.##")}");
+            writer.WriteLine($"Year of foundation: {FoundationYear}");
+            writer.WriteLine(IsWithHostel ? "Dormitory available" : "No dormitory");
+            writer.WriteLine($"Website: {Site}");
             writer.WriteLine();
-            writer.WriteLine("Спеціальності:");
+            writer.WriteLine("Courses:");
             new CoursesCollection(new List<University> {this}).WriteInformationToFile(writer);
         }
 

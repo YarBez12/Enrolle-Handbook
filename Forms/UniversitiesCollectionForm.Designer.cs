@@ -80,7 +80,7 @@
             this.universityNameLabel.Name = "universityNameLabel";
             this.universityNameLabel.Size = new System.Drawing.Size(102, 20);
             this.universityNameLabel.TabIndex = 0;
-            this.universityNameLabel.Text = "Університет";
+            this.universityNameLabel.Text = "University";
             // 
             // universityNameTextBox
             // 
@@ -104,7 +104,7 @@
             this.courseNameLabel.Name = "courseNameLabel";
             this.courseNameLabel.Size = new System.Drawing.Size(116, 20);
             this.courseNameLabel.TabIndex = 2;
-            this.courseNameLabel.Text = "Спеціальність";
+            this.courseNameLabel.Text = "Course";
             // 
             // cityTextBox
             // 
@@ -121,7 +121,7 @@
             this.cityLabel.Name = "cityLabel";
             this.cityLabel.Size = new System.Drawing.Size(51, 20);
             this.cityLabel.TabIndex = 4;
-            this.cityLabel.Text = "Місто";
+            this.cityLabel.Text = "City";
             // 
             // sortGroupBox
             // 
@@ -136,7 +136,7 @@
             this.sortGroupBox.Size = new System.Drawing.Size(273, 159);
             this.sortGroupBox.TabIndex = 9;
             this.sortGroupBox.TabStop = false;
-            this.sortGroupBox.Text = "Сортування";
+            this.sortGroupBox.Text = "Sorting";
             // 
             // rateRadioButton
             // 
@@ -145,7 +145,7 @@
             this.rateRadioButton.Name = "rateRadioButton";
             this.rateRadioButton.Size = new System.Drawing.Size(132, 24);
             this.rateRadioButton.TabIndex = 4;
-            this.rateRadioButton.Text = "За рейтингом";
+            this.rateRadioButton.Text = "By rating";
             this.rateRadioButton.UseVisualStyleBackColor = true;
             this.rateRadioButton.CheckedChanged += new System.EventHandler(this.rateRadioButton_CheckedChanged);
             // 
@@ -156,7 +156,7 @@
             this.averageFeeRadioButton.Name = "averageFeeRadioButton";
             this.averageFeeRadioButton.Size = new System.Drawing.Size(198, 24);
             this.averageFeeRadioButton.TabIndex = 3;
-            this.averageFeeRadioButton.Text = "За середньою платою";
+            this.averageFeeRadioButton.Text = "By average fee";
             this.averageFeeRadioButton.UseVisualStyleBackColor = true;
             this.averageFeeRadioButton.CheckedChanged += new System.EventHandler(this.averageFeeRadioButton_CheckedChanged);
             // 
@@ -167,7 +167,7 @@
             this.averagePointRadioButton.Name = "averagePointRadioButton";
             this.averagePointRadioButton.Size = new System.Drawing.Size(263, 24);
             this.averagePointRadioButton.TabIndex = 2;
-            this.averagePointRadioButton.Text = "За середнім конкурсним балом";
+            this.averagePointRadioButton.Text = "By average passing score";
             this.averagePointRadioButton.UseVisualStyleBackColor = true;
             this.averagePointRadioButton.CheckedChanged += new System.EventHandler(this.averagePointRadioButton_CheckedChanged);
             // 
@@ -178,7 +178,7 @@
             this.courcesCountRadioButton.Name = "courcesCountRadioButton";
             this.courcesCountRadioButton.Size = new System.Drawing.Size(244, 24);
             this.courcesCountRadioButton.TabIndex = 1;
-            this.courcesCountRadioButton.Text = "За кількістю спеціальностей";
+            this.courcesCountRadioButton.Text = "By number of courses";
             this.courcesCountRadioButton.UseVisualStyleBackColor = true;
             this.courcesCountRadioButton.CheckedChanged += new System.EventHandler(this.courcesCountRadioButton_CheckedChanged);
             // 
@@ -191,7 +191,7 @@
             this.alphabetRadioButton.Size = new System.Drawing.Size(135, 24);
             this.alphabetRadioButton.TabIndex = 0;
             this.alphabetRadioButton.TabStop = true;
-            this.alphabetRadioButton.Text = "За алфавітом";
+            this.alphabetRadioButton.Text = "Alphabetically";
             this.alphabetRadioButton.UseVisualStyleBackColor = true;
             this.alphabetRadioButton.CheckedChanged += new System.EventHandler(this.alphabetRadioButton_CheckedChanged);
             // 
@@ -202,7 +202,7 @@
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(120, 34);
             this.searchButton.TabIndex = 6;
-            this.searchButton.Text = "Пошук";
+            this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
@@ -213,7 +213,7 @@
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(120, 34);
             this.resetButton.TabIndex = 8;
-            this.resetButton.Text = "Скинути";
+            this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
@@ -224,7 +224,7 @@
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(167, 34);
             this.goButton.TabIndex = 12;
-            this.goButton.Text = "Переглянути";
+            this.goButton.Text = "View";
             this.goButton.UseVisualStyleBackColor = true;
             this.goButton.Click += new System.EventHandler(this.goButton_Click);
             // 
@@ -243,7 +243,7 @@
             this.returnButton.Name = "returnButton";
             this.returnButton.Size = new System.Drawing.Size(167, 34);
             this.returnButton.TabIndex = 13;
-            this.returnButton.Text = "Назад";
+            this.returnButton.Text = "Back";
             this.returnButton.UseVisualStyleBackColor = true;
             this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
             // 
@@ -305,7 +305,7 @@
             this.averagePoint.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.averagePoint.DataPropertyName = "StringAveragePoint";
             this.averagePoint.FillWeight = 20F;
-            this.averagePoint.HeaderText = "Середній бал";
+            this.averagePoint.HeaderText = "Average passing score";
             this.averagePoint.Name = "averagePoint";
             this.averagePoint.ReadOnly = true;
             this.averagePoint.Width = 90;
@@ -315,13 +315,13 @@
             this.Saved.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.Saved.DataPropertyName = "saved";
             this.Saved.FillWeight = 20F;
-            this.Saved.HeaderText = "Збережено";
+            this.Saved.HeaderText = "Saved";
             this.Saved.Name = "Saved";
             // 
             // Added
             // 
             this.Added.DataPropertyName = "Added";
-            this.Added.HeaderText = "Додано";
+            this.Added.HeaderText = "Added";
             this.Added.Name = "Added";
             this.Added.ReadOnly = true;
             this.Added.Width = 70;
@@ -389,7 +389,7 @@
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(119, 94);
             this.loadButton.TabIndex = 11;
-            this.loadButton.Text = "Завантажити інформацію";
+            this.loadButton.Text = "Export information";
             this.loadButton.UseVisualStyleBackColor = true;
             this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
             // 
@@ -408,7 +408,7 @@
             this.addUniversityButton.Name = "addUniversityButton";
             this.addUniversityButton.Size = new System.Drawing.Size(118, 94);
             this.addUniversityButton.TabIndex = 10;
-            this.addUniversityButton.Text = "Додати університет";
+            this.addUniversityButton.Text = "Add university";
             this.addUniversityButton.UseVisualStyleBackColor = true;
             this.addUniversityButton.Click += new System.EventHandler(this.addUniversityButton_Click);
             // 
@@ -416,14 +416,14 @@
             // 
             this.nameUniversity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.nameUniversity.DataPropertyName = "Name";
-            this.nameUniversity.HeaderText = "Назва";
+            this.nameUniversity.HeaderText = "Name";
             this.nameUniversity.Name = "nameUniversity";
             this.nameUniversity.ReadOnly = true;
             // 
             // rating
             // 
             this.rating.DataPropertyName = "Rating";
-            this.rating.HeaderText = "Рейтинг";
+            this.rating.HeaderText = "Rating";
             this.rating.Name = "rating";
             this.rating.ReadOnly = true;
             this.rating.Width = 85;
@@ -465,7 +465,7 @@
             this.MinimumSize = new System.Drawing.Size(917, 609);
             this.Name = "UniversitiesCollectionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Перелік університетів";
+            this.Text = "List of universities";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UniversitiesCollectionForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UniversitiesCollectionForm_KeyDown);
             this.sortGroupBox.ResumeLayout(false);

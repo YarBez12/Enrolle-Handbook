@@ -24,12 +24,12 @@ namespace EnrolleeHandbook.Models
         public string DisplayState { get; internal set; }
         public bool Added { get; set; }
 
-        public Course(string name = "Інженерія програмного забезпечення",
+        public Course(string name = "Software Engineering",
             int number = 121,
-            string area = "Інформаційні технології",
+            string area = "Information Technologies",
             int numberOfApplicants = 200,
             float point = 161f,
-            string studyingForm = "Денна",
+            string studyingForm = "Full-time",
             int fee = 32000,
             Dictionary<string, float> coefficients = null)
         {
@@ -41,19 +41,19 @@ namespace EnrolleeHandbook.Models
             StudyingForm = studyingForm;
             Fee = fee;
             Saved = false;
-            Note = "Нотатки";
+            Note = "Notes";
             Coefficients = coefficients ?? new Dictionary<string, float> {
-                {"Математика", 0.4f },
-                {"Українська мова", 0.1f },
-                {"Історія України", 0.1f },
-                {"Іноземна мова", 0.3f },
-                {"Фізика", 0.4f },
-                {"Хімія", 0.2f },
-                {"Біологія", 0.2f },
-                {"Географія", 0.2f },
-                {"Українська література", 0.2f },
-            };
-            University = "Харківський національний університет радіоелектроніки";
+                 {"Mathematics", 0.4f },
+                 {"Ukrainian language", 0.1f },
+                 {"History of Ukraine", 0.1f },
+                 {"Foreign language", 0.3f },
+                 {"Physics", 0.4f },
+                 {"Chemistry", 0.2f },
+                 {"Biology", 0.2f },
+                 {"Geography", 0.2f },
+                 {"Ukrainian literature", 0.2f },
+             };
+            University = "Kharkiv National University of Radio Electronics";
             DisplayState = $"{name}: {StudyingForm}";
             Added = false;
         }
@@ -63,21 +63,21 @@ namespace EnrolleeHandbook.Models
             string stringNumber = (Number / 100 == 0) ? ('0' + Number.ToString()) : Number.ToString();
             writer.WriteLine($"{stringNumber} {Name}");
             writer.WriteLine();
-            writer.WriteLine($"Галузь знань: {Area}");
-            writer.WriteLine($"Кількість абітурієнтів минулого року: {NumberOfApplicants}");
-            writer.WriteLine($"Конкурсний бал: {Point}");
-            writer.WriteLine($"Форма навчання: {StudyingForm}");
-            writer.WriteLine($"Плата за контракт на рік: {Fee}");
+            writer.WriteLine($"Field of study: {Area}");
+            writer.WriteLine($"Number of applicants last year: {NumberOfApplicants}");
+            writer.WriteLine($"Competitive score: {Point}");
+            writer.WriteLine($"Form of study: {StudyingForm}");
+            writer.WriteLine($"Tuition fee per year: {Fee}");
             writer.WriteLine();
-            writer.WriteLine("Таблиця коефіцієнтів");
+            writer.WriteLine("Coefficient table");
             foreach (KeyValuePair<string, float> coefficient in Coefficients)
             {
                 writer.WriteLine($"{coefficient.Key}: {coefficient.Value}");
             }
             writer.WriteLine();
-            if (Note != "Нотатки")
+            if (Note != "Notes")
             {
-                writer.WriteLine("Нотатки");
+                writer.WriteLine("Notes");
                 writer.WriteLine(Note);
             }
         }

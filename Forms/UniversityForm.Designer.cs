@@ -79,7 +79,7 @@
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(752, 98);
             this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "Назва університету";
+            this.nameLabel.Text = "University name";
             this.nameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // adressLabel
@@ -90,7 +90,7 @@
             this.adressLabel.Name = "adressLabel";
             this.adressLabel.Size = new System.Drawing.Size(66, 20);
             this.adressLabel.TabIndex = 1;
-            this.adressLabel.Text = "Адреса";
+            this.adressLabel.Text = "Address";
             // 
             // rateLabel
             // 
@@ -100,7 +100,7 @@
             this.rateLabel.Name = "rateLabel";
             this.rateLabel.Size = new System.Drawing.Size(71, 20);
             this.rateLabel.TabIndex = 2;
-            this.rateLabel.Text = "Рейтинг";
+            this.rateLabel.Text = "Rating";
             // 
             // coursesCountLabel
             // 
@@ -110,7 +110,7 @@
             this.coursesCountLabel.Name = "coursesCountLabel";
             this.coursesCountLabel.Size = new System.Drawing.Size(201, 20);
             this.coursesCountLabel.TabIndex = 3;
-            this.coursesCountLabel.Text = "Кількість спеціальностей";
+            this.coursesCountLabel.Text = "Number of courses";
             // 
             // averagePointLabel
             // 
@@ -120,7 +120,7 @@
             this.averagePointLabel.Name = "averagePointLabel";
             this.averagePointLabel.Size = new System.Drawing.Size(200, 20);
             this.averagePointLabel.TabIndex = 4;
-            this.averagePointLabel.Text = "Середній конкурсний бал";
+            this.averagePointLabel.Text = "Average passing score";
             // 
             // minPointLabel
             // 
@@ -130,7 +130,7 @@
             this.minPointLabel.Name = "minPointLabel";
             this.minPointLabel.Size = new System.Drawing.Size(224, 20);
             this.minPointLabel.TabIndex = 5;
-            this.minPointLabel.Text = "Мінімальний конкурсний бал";
+            this.minPointLabel.Text = "Minimum passing score";
             // 
             // foundYearLabel
             // 
@@ -140,7 +140,7 @@
             this.foundYearLabel.Name = "foundYearLabel";
             this.foundYearLabel.Size = new System.Drawing.Size(120, 20);
             this.foundYearLabel.TabIndex = 6;
-            this.foundYearLabel.Text = "Рік заснування";
+            this.foundYearLabel.Text = "Year of foundation";
             // 
             // hostelLabel
             // 
@@ -150,7 +150,7 @@
             this.hostelLabel.Name = "hostelLabel";
             this.hostelLabel.Size = new System.Drawing.Size(175, 20);
             this.hostelLabel.TabIndex = 7;
-            this.hostelLabel.Text = "Наявність гуртожитку";
+            this.hostelLabel.Text = "Dormitory available";
             // 
             // webSiteLabel
             // 
@@ -160,7 +160,7 @@
             this.webSiteLabel.Name = "webSiteLabel";
             this.webSiteLabel.Size = new System.Drawing.Size(78, 20);
             this.webSiteLabel.TabIndex = 8;
-            this.webSiteLabel.Text = "Веб-сайт";
+            this.webSiteLabel.Text = "Website";
             // 
             // coursesDataGridView
             // 
@@ -208,7 +208,7 @@
             // Point
             // 
             this.Point.DataPropertyName = "Point";
-            this.Point.HeaderText = "Прохідний бал";
+            this.Point.HeaderText = "Passing score";
             this.Point.Name = "Point";
             this.Point.ReadOnly = true;
             this.Point.Width = 90;
@@ -216,7 +216,7 @@
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "studyingForm";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Форма навчання";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Study form";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
             this.dataGridViewTextBoxColumn2.Width = 85;
@@ -224,14 +224,14 @@
             // Saved
             // 
             this.Saved.DataPropertyName = "saved";
-            this.Saved.HeaderText = "Збережено";
+            this.Saved.HeaderText = "Saved";
             this.Saved.Name = "Saved";
             this.Saved.ReadOnly = true;
             // 
             // Added
             // 
             this.Added.DataPropertyName = "Added";
-            this.Added.HeaderText = "Додано";
+            this.Added.HeaderText = "Added";
             this.Added.Name = "Added";
             this.Added.ReadOnly = true;
             this.Added.Width = 70;
@@ -291,7 +291,7 @@
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(172, 34);
             this.goButton.TabIndex = 14;
-            this.goButton.Text = "Переглянути";
+            this.goButton.Text = "View";
             this.goButton.UseVisualStyleBackColor = true;
             this.goButton.Click += new System.EventHandler(this.goButton_Click);
             // 
@@ -302,7 +302,7 @@
             this.changeButton.Name = "changeButton";
             this.changeButton.Size = new System.Drawing.Size(205, 34);
             this.changeButton.TabIndex = 15;
-            this.changeButton.Text = "Додати до обраних";
+            this.changeButton.Text = "Add to favorites";
             this.changeButton.UseVisualStyleBackColor = true;
             this.changeButton.Click += new System.EventHandler(this.changeButton_Click);
             // 
@@ -313,14 +313,14 @@
             this.returnButton.Name = "returnButton";
             this.returnButton.Size = new System.Drawing.Size(106, 34);
             this.returnButton.TabIndex = 16;
-            this.returnButton.Text = "Назад";
+            this.returnButton.Text = "Back";
             this.returnButton.UseVisualStyleBackColor = true;
             this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
             // 
             // StudyingForm
             // 
             this.StudyingForm.DataPropertyName = "studyingForm";
-            this.StudyingForm.HeaderText = "Форма навчання";
+            this.StudyingForm.HeaderText = "Study form";
             this.StudyingForm.Name = "StudyingForm";
             this.StudyingForm.ReadOnly = true;
             this.StudyingForm.Width = 70;
@@ -344,7 +344,7 @@
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(136, 94);
             this.loadButton.TabIndex = 13;
-            this.loadButton.Text = "Завантажити інформацію";
+            this.loadButton.Text = "Export information";
             this.loadButton.UseVisualStyleBackColor = true;
             this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
             // 
@@ -355,7 +355,7 @@
             this.addCourseButton.Name = "addCourseButton";
             this.addCourseButton.Size = new System.Drawing.Size(126, 94);
             this.addCourseButton.TabIndex = 12;
-            this.addCourseButton.Text = "Додати спеціальність";
+            this.addCourseButton.Text = "Add course";
             this.addCourseButton.UseVisualStyleBackColor = true;
             this.addCourseButton.Click += new System.EventHandler(this.addCourseButton_Click);
             // 
@@ -366,7 +366,7 @@
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(127, 34);
             this.deleteButton.TabIndex = 10;
-            this.deleteButton.Text = "Видалити";
+            this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
@@ -377,7 +377,7 @@
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(136, 34);
             this.editButton.TabIndex = 11;
-            this.editButton.Text = "Редагувати";
+            this.editButton.Text = "Edit";
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
@@ -387,7 +387,7 @@
             this.universityName.DataPropertyName = "Name";
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.universityName.DefaultCellStyle = dataGridViewCellStyle2;
-            this.universityName.HeaderText = "Назва";
+            this.universityName.HeaderText = "Name";
             this.universityName.Name = "universityName";
             this.universityName.ReadOnly = true;
             // 
@@ -431,7 +431,7 @@
             this.MinimumSize = new System.Drawing.Size(917, 609);
             this.Name = "UniversityForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Назва університету";
+            this.Text = "University";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UniversityForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UniversityForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.coursesDataGridView)).EndInit();

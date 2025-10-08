@@ -42,7 +42,7 @@
             this.allUniversitiesButton.Name = "allUniversitiesButton";
             this.allUniversitiesButton.Size = new System.Drawing.Size(350, 150);
             this.allUniversitiesButton.TabIndex = 1;
-            this.allUniversitiesButton.Text = "Всі університети";
+            this.allUniversitiesButton.Text = "All universities";
             this.allUniversitiesButton.UseVisualStyleBackColor = true;
             this.allUniversitiesButton.Click += new System.EventHandler(this.allUniversitiesButton_Click);
             // 
@@ -53,7 +53,7 @@
             this.savedUniversitiesButton.Name = "savedUniversitiesButton";
             this.savedUniversitiesButton.Size = new System.Drawing.Size(350, 150);
             this.savedUniversitiesButton.TabIndex = 2;
-            this.savedUniversitiesButton.Text = "Збережені університети";
+            this.savedUniversitiesButton.Text = "Saved universities";
             this.savedUniversitiesButton.UseVisualStyleBackColor = true;
             this.savedUniversitiesButton.Click += new System.EventHandler(this.savedUniversitiesButton_Click);
             // 
@@ -64,7 +64,7 @@
             this.allCoursesButton.Name = "allCoursesButton";
             this.allCoursesButton.Size = new System.Drawing.Size(350, 150);
             this.allCoursesButton.TabIndex = 3;
-            this.allCoursesButton.Text = "Всі спеціальності";
+            this.allCoursesButton.Text = "All courses";
             this.allCoursesButton.UseVisualStyleBackColor = true;
             this.allCoursesButton.Click += new System.EventHandler(this.allCoursesButton_Click);
             // 
@@ -75,7 +75,7 @@
             this.savedCoursesButton.Name = "savedCoursesButton";
             this.savedCoursesButton.Size = new System.Drawing.Size(350, 150);
             this.savedCoursesButton.TabIndex = 4;
-            this.savedCoursesButton.Text = "Збережені спеціальності";
+            this.savedCoursesButton.Text = "Saved courses";
             this.savedCoursesButton.UseVisualStyleBackColor = true;
             this.savedCoursesButton.Click += new System.EventHandler(this.savedCoursesButton_Click);
             // 
@@ -86,7 +86,7 @@
             this.calculatorButton.Name = "calculatorButton";
             this.calculatorButton.Size = new System.Drawing.Size(424, 177);
             this.calculatorButton.TabIndex = 5;
-            this.calculatorButton.Text = "Калькулятор конкурсного балу";
+            this.calculatorButton.Text = "Competitive score calculator";
             this.calculatorButton.UseVisualStyleBackColor = true;
             this.calculatorButton.Click += new System.EventHandler(this.calculatorButton_Click);
             // 
@@ -107,7 +107,7 @@
             this.MinimumSize = new System.Drawing.Size(917, 609);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Довідник абітурієнта";
+            this.Text = "Enrolleer Handbook";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.ResumeLayout(false);
 

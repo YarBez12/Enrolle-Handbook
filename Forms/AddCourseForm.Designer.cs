@@ -91,7 +91,7 @@
             this.addToSavedCheckBox.Name = "addToSavedCheckBox";
             this.addToSavedCheckBox.Size = new System.Drawing.Size(176, 24);
             this.addToSavedCheckBox.TabIndex = 36;
-            this.addToSavedCheckBox.Text = "Додати до обраних";
+            this.addToSavedCheckBox.Text = "Add to favorites";
             this.addToSavedCheckBox.UseVisualStyleBackColor = true;
             // 
             // mathLabel
@@ -102,7 +102,7 @@
             this.mathLabel.Name = "mathLabel";
             this.mathLabel.Size = new System.Drawing.Size(104, 20);
             this.mathLabel.TabIndex = 18;
-            this.mathLabel.Text = "Математика";
+            this.mathLabel.Text = "Mathematics";
             // 
             // numberLabel
             // 
@@ -112,7 +112,7 @@
             this.numberLabel.Name = "numberLabel";
             this.numberLabel.Size = new System.Drawing.Size(59, 20);
             this.numberLabel.TabIndex = 5;
-            this.numberLabel.Text = "Номер";
+            this.numberLabel.Text = "Number";
             // 
             // nameTextBox
             // 
@@ -129,7 +129,7 @@
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(56, 20);
             this.nameLabel.TabIndex = 1;
-            this.nameLabel.Text = "Назва";
+            this.nameLabel.Text = "Name";
             // 
             // titleLabel
             // 
@@ -139,7 +139,7 @@
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(645, 54);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "Заповніть дані для спеціальності";
+            this.titleLabel.Text = "Fill in course details";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // feeLabel
@@ -150,7 +150,8 @@
             this.feeLabel.Name = "feeLabel";
             this.feeLabel.Size = new System.Drawing.Size(153, 20);
             this.feeLabel.TabIndex = 15;
-            this.feeLabel.Text = "Плата за контракт";
+            this.feeLabel.Text = "Tuition fee";
+
             // 
             // universityComboBox
             // 
@@ -188,7 +189,7 @@
             this.numberOfApplicantsLabel.Name = "numberOfApplicantsLabel";
             this.numberOfApplicantsLabel.Size = new System.Drawing.Size(170, 43);
             this.numberOfApplicantsLabel.TabIndex = 9;
-            this.numberOfApplicantsLabel.Text = "Кількість абітурієнтів минулого року";
+            this.numberOfApplicantsLabel.Text = "Number of applicants last year";
             this.numberOfApplicantsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // numberOfApplicantsNumericUpDown
@@ -221,7 +222,7 @@
             this.coefficientsLabel.Name = "coefficientsLabel";
             this.coefficientsLabel.Size = new System.Drawing.Size(103, 20);
             this.coefficientsLabel.TabIndex = 17;
-            this.coefficientsLabel.Text = "Коефіцієнти";
+            this.coefficientsLabel.Text = "Coefficients";
             // 
             // pointLabel
             // 
@@ -230,7 +231,7 @@
             this.pointLabel.Name = "pointLabel";
             this.pointLabel.Size = new System.Drawing.Size(128, 43);
             this.pointLabel.TabIndex = 11;
-            this.pointLabel.Text = "Прохідний бал минулого року";
+            this.pointLabel.Text = "Last year's passing score";
             // 
             // pointNumericUpDown
             // 
@@ -268,7 +269,7 @@
             this.studyingFormLabel.Name = "studyingFormLabel";
             this.studyingFormLabel.Size = new System.Drawing.Size(138, 20);
             this.studyingFormLabel.TabIndex = 13;
-            this.studyingFormLabel.Text = "Форма навчання";
+            this.studyingFormLabel.Text = "Form of study";
             // 
             // mathsNumericUpDown
             // 
@@ -306,7 +307,7 @@
             this.ukrLanguageLabel.Name = "ukrLanguageLabel";
             this.ukrLanguageLabel.Size = new System.Drawing.Size(133, 20);
             this.ukrLanguageLabel.TabIndex = 20;
-            this.ukrLanguageLabel.Text = "Українська мова";
+            this.ukrLanguageLabel.Text = "Ukrainian language";
             // 
             // ukrLanguageNumericUpDown
             // 
@@ -372,7 +373,7 @@
             this.historyLabel.Name = "historyLabel";
             this.historyLabel.Size = new System.Drawing.Size(122, 20);
             this.historyLabel.TabIndex = 22;
-            this.historyLabel.Text = "Історія України";
+            this.historyLabel.Text = "History of Ukraine";
             // 
             // forLanguageNumericUpDown
             // 
@@ -410,7 +411,7 @@
             this.forLanguageLabel.Name = "forLanguageLabel";
             this.forLanguageLabel.Size = new System.Drawing.Size(120, 20);
             this.forLanguageLabel.TabIndex = 24;
-            this.forLanguageLabel.Text = "Іноземна мова";
+            this.forLanguageLabel.Text = "Foreign language";
             // 
             // physicsNumericUpDown
             // 
@@ -448,7 +449,7 @@
             this.physicsLabel.Name = "physicsLabel";
             this.physicsLabel.Size = new System.Drawing.Size(61, 20);
             this.physicsLabel.TabIndex = 26;
-            this.physicsLabel.Text = "Фізика";
+            this.physicsLabel.Text = "Physics";
             // 
             // chemistryNumericUpDown
             // 
@@ -486,7 +487,7 @@
             this.chemistryLabel.Name = "chemistryLabel";
             this.chemistryLabel.Size = new System.Drawing.Size(46, 20);
             this.chemistryLabel.TabIndex = 28;
-            this.chemistryLabel.Text = "Хімія";
+            this.chemistryLabel.Text = "Chemistry";
             // 
             // biologyNumericUpDown
             // 
@@ -524,7 +525,7 @@
             this.biologyLabel.Name = "biologyLabel";
             this.biologyLabel.Size = new System.Drawing.Size(70, 20);
             this.biologyLabel.TabIndex = 30;
-            this.biologyLabel.Text = "Біологія";
+            this.biologyLabel.Text = "Biology";
             // 
             // geographyNumericUpDown
             // 
@@ -562,7 +563,7 @@
             this.geographyLabel.Name = "geographyLabel";
             this.geographyLabel.Size = new System.Drawing.Size(88, 20);
             this.geographyLabel.TabIndex = 32;
-            this.geographyLabel.Text = "Географія";
+            this.geographyLabel.Text = "Geography";
             // 
             // ukrLiteratureNumericUpDown
             // 
@@ -600,7 +601,7 @@
             this.ukrLiteratureLabel.Name = "ukrLiteratureLabel";
             this.ukrLiteratureLabel.Size = new System.Drawing.Size(178, 20);
             this.ukrLiteratureLabel.TabIndex = 34;
-            this.ukrLiteratureLabel.Text = "Українська література";
+            this.ukrLiteratureLabel.Text = "Ukrainian literature";
             // 
             // feeNumericUpDown
             // 
@@ -631,7 +632,7 @@
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(172, 34);
             this.saveButton.TabIndex = 37;
-            this.saveButton.Text = "Зберегти";
+            this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
@@ -643,7 +644,7 @@
             this.universityLabel.Name = "universityLabel";
             this.universityLabel.Size = new System.Drawing.Size(93, 20);
             this.universityLabel.TabIndex = 3;
-            this.universityLabel.Text = "Уніерситет";
+            this.universityLabel.Text = "University";
             // 
             // areaLabel
             // 
@@ -653,16 +654,16 @@
             this.areaLabel.Name = "areaLabel";
             this.areaLabel.Size = new System.Drawing.Size(109, 20);
             this.areaLabel.TabIndex = 7;
-            this.areaLabel.Text = "Галузь знань";
+            this.areaLabel.Text = "Field of study";
             // 
             // studyingFormComboBox
             // 
             this.studyingFormComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.studyingFormComboBox.FormattingEnabled = true;
             this.studyingFormComboBox.Items.AddRange(new object[] {
-            "Денна",
-            "Вечірня",
-            "Заочна"});
+            "Full-time",
+            "Evening",
+            "Part-time"});
             this.studyingFormComboBox.Location = new System.Drawing.Point(215, 298);
             this.studyingFormComboBox.Name = "studyingFormComboBox";
             this.studyingFormComboBox.Size = new System.Drawing.Size(412, 21);
@@ -717,7 +718,7 @@
             this.MinimumSize = new System.Drawing.Size(661, 747);
             this.Name = "AddCourseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Нова спеціальність";
+            this.Text = "New course";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddCourseForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AddCourseForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.universityBindingSource)).EndInit();

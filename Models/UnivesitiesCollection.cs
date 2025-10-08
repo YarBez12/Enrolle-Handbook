@@ -71,32 +71,32 @@ namespace EnrolleeHandbook.Models
 
         public void AddUniversity(University university, University oldUniversity = null)
         {
-            string universityPattern = @"^[а-яА-ЯҐґЄєІіЇї\s""-.,]+$";
-            string streetPattern = @"^[а-яА-ЯҐґЄєІіЇї\s""-.,]+$";
+            string universityPattern = @"^[A-Za-z\s""\-.,]+$";
+            string streetPattern = @"^[A-Za-z\s""\-.,]+$";
             string sitePattern = @"^(https?://)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(\/[a-zA-Z0-9#-_.]*)?$";
             foreach (University currentUniversity in Items)
             {
                 if (currentUniversity.Name == university.Name &&
                     currentUniversity != oldUniversity)
                 {
-                    throw new ArgumentException("Такий університет вже існує");
+                    throw new ArgumentException("This university already exists");
                 }
             }
             if (!Regex.IsMatch(university.Name, universityPattern))
             {
-                throw new ArgumentException("Ви ввели неправильний університет");
+                throw new ArgumentException("You entered an invalid university");
             }
             if (university.Address.City == "")
             {
-                throw new ArgumentException("Не обрано жодне місто");
+                throw new ArgumentException("No city selected");
             }
             if (!Regex.IsMatch(university.Address.Street, streetPattern))
             {
-                throw new ArgumentException("Ви ввели неправильну вулицю");
+                throw new ArgumentException("You entered an invalid street");
             }
             if (!Regex.IsMatch(university.Site, sitePattern))
             {
-                throw new ArgumentException("Ви ввели неправильний сайт");
+                throw new ArgumentException("You entered an invalid website");
             }
             Items.Add(university);
             university.Added = true;

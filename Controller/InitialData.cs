@@ -17,10 +17,21 @@ namespace EnrolleeHandbook.Controller
     internal class InitialData
     {
         internal static string filePath = "allUniversities.json";
-        internal static UniversitiesCollection initUniversitiesCollection = JsonController.LoadData(filePath);
-        internal static UniversitiesCollection initSavedUniversitiesCollection = CollectionCreator.CreateSavedUniversitiesCollection(initUniversitiesCollection);
-        internal static CoursesCollection initCoursesCollection = new CoursesCollection(initUniversitiesCollection.Items);
-        internal static CoursesCollection initSavedCoursesCollection = CollectionCreator.CreateSavedCoursesCollection(initUniversitiesCollection);
+
+
+        internal static UniversitiesCollection initUniversitiesCollection =
+        JsonController.LoadData(filePath) ?? new UniversitiesCollection();
+
+        internal static UniversitiesCollection initSavedUniversitiesCollection =
+            CollectionCreator.CreateSavedUniversitiesCollection(initUniversitiesCollection);
+
+        internal static CoursesCollection initCoursesCollection =
+            new CoursesCollection(initUniversitiesCollection.Items ?? new List<University>());
+
+        internal static CoursesCollection initSavedCoursesCollection =
+            CollectionCreator.CreateSavedCoursesCollection(initUniversitiesCollection);
+
+
         internal static bool isPreviousSaved = false;
         internal static bool isPreviousCourse = false;
     }

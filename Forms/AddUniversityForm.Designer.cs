@@ -66,7 +66,7 @@
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(645, 54);
             this.titleLabel.TabIndex = 0;
-            this.titleLabel.Text = "Заповніть дані для університету";
+            this.titleLabel.Text = "Fill in university details";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rateLabel
@@ -77,7 +77,7 @@
             this.rateLabel.Name = "rateLabel";
             this.rateLabel.Size = new System.Drawing.Size(71, 20);
             this.rateLabel.TabIndex = 12;
-            this.rateLabel.Text = "Рейтинг";
+            this.rateLabel.Text = "Rating";
             // 
             // nameTextBox
             // 
@@ -94,7 +94,7 @@
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(56, 20);
             this.nameLabel.TabIndex = 1;
-            this.nameLabel.Text = "Назва";
+            this.nameLabel.Text = "Name";
             // 
             // foundationYearLabel
             // 
@@ -104,7 +104,7 @@
             this.foundationYearLabel.Name = "foundationYearLabel";
             this.foundationYearLabel.Size = new System.Drawing.Size(120, 20);
             this.foundationYearLabel.TabIndex = 14;
-            this.foundationYearLabel.Text = "Рік заснування";
+            this.foundationYearLabel.Text = "Year of foundation";
             // 
             // siteLabel
             // 
@@ -114,7 +114,7 @@
             this.siteLabel.Name = "siteLabel";
             this.siteLabel.Size = new System.Drawing.Size(78, 20);
             this.siteLabel.TabIndex = 16;
-            this.siteLabel.Text = "Веб-сайт";
+            this.siteLabel.Text = "Website";
             // 
             // siteTextBox
             // 
@@ -130,7 +130,7 @@
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(172, 34);
             this.saveButton.TabIndex = 20;
-            this.saveButton.Text = "Зберегти";
+            this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
@@ -142,7 +142,7 @@
             this.addToSavedCheckBox.Name = "addToSavedCheckBox";
             this.addToSavedCheckBox.Size = new System.Drawing.Size(176, 24);
             this.addToSavedCheckBox.TabIndex = 19;
-            this.addToSavedCheckBox.Text = "Додати до обраних";
+            this.addToSavedCheckBox.Text = "Add to favorites";
             this.addToSavedCheckBox.UseVisualStyleBackColor = true;
             // 
             // isWithHostelCheckBox
@@ -153,7 +153,7 @@
             this.isWithHostelCheckBox.Name = "isWithHostelCheckBox";
             this.isWithHostelCheckBox.Size = new System.Drawing.Size(131, 24);
             this.isWithHostelCheckBox.TabIndex = 18;
-            this.isWithHostelCheckBox.Text = "Є гуртожиток";
+            this.isWithHostelCheckBox.Text = "Dormitory available";
             this.isWithHostelCheckBox.UseVisualStyleBackColor = true;
             // 
             // rateNumericUpDown
@@ -186,7 +186,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(66, 20);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Адреса";
+            this.label1.Text = "Address";
             // 
             // cityLabel
             // 
@@ -196,7 +196,7 @@
             this.cityLabel.Name = "cityLabel";
             this.cityLabel.Size = new System.Drawing.Size(51, 20);
             this.cityLabel.TabIndex = 4;
-            this.cityLabel.Text = "Місто";
+            this.cityLabel.Text = "City";
             // 
             // postLndexLabel
             // 
@@ -206,7 +206,7 @@
             this.postLndexLabel.Name = "postLndexLabel";
             this.postLndexLabel.Size = new System.Drawing.Size(140, 20);
             this.postLndexLabel.TabIndex = 10;
-            this.postLndexLabel.Text = "Поштовий індекс";
+            this.postLndexLabel.Text = "Postal code";
             // 
             // numberLabel
             // 
@@ -216,7 +216,7 @@
             this.numberLabel.Name = "numberLabel";
             this.numberLabel.Size = new System.Drawing.Size(115, 20);
             this.numberLabel.TabIndex = 8;
-            this.numberLabel.Text = "Номер будівлі";
+            this.numberLabel.Text = "Building number";
             // 
             // streetLabel
             // 
@@ -226,38 +226,38 @@
             this.streetLabel.Name = "streetLabel";
             this.streetLabel.Size = new System.Drawing.Size(64, 20);
             this.streetLabel.TabIndex = 6;
-            this.streetLabel.Text = "Вулиця";
+            this.streetLabel.Text = "Street";
             // 
             // cityComboBox
             // 
             this.cityComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cityComboBox.FormattingEnabled = true;
             this.cityComboBox.Items.AddRange(new object[] {
-            "Вінниця",
-            "Дніпро",
-            "Донецьк",
-            "Житомир",
-            "Запоріжжя",
-            "Івано-Франківськ",
-            "Київ",
-            "Кропивницький",
-            "Луганськ",
-            "Львів",
-            "Миколаїв",
-            "Одеса",
-            "Полтава",
-            "Рівне",
-            "Суми",
-            "Тернопіль",
-            "Ужгород",
-            "Харків",
-            "Херсон",
-            "Хмельницький",
-            "Черкаси",
-            "Чернівці",
-            "Чернігів",
-            "Сімферополь",
-            "Севастополь"});
+            "Vinnytsia",
+            "Dnipro",
+            "Donetsk",
+            "Zhytomyr",
+            "Zaporizhzhia",
+            "Ivano-Frankivsk",
+            "Kyiv",
+            "Kropyvnytskyi",
+            "Luhansk",
+            "Lviv",
+            "Mykolaiv",
+            "Odesa",
+            "Poltava",
+            "Rivne",
+            "Sumy",
+            "Ternopil",
+            "Uzhhorod",
+            "Kharkiv",
+            "Kherson",
+            "Khmelnytskyi",
+            "Cherkasy",
+            "Chernivtsi",
+            "Chernihiv",
+            "Simferopol",
+            "Sevastopol"});
             this.cityComboBox.Location = new System.Drawing.Point(250, 96);
             this.cityComboBox.Name = "cityComboBox";
             this.cityComboBox.Size = new System.Drawing.Size(359, 21);
@@ -372,7 +372,7 @@
             this.MinimumSize = new System.Drawing.Size(661, 450);
             this.Name = "AddUniversityForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Новий університет";
+            this.Text = "New university";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddUniversityForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AddUniversityForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.rateNumericUpDown)).EndInit();

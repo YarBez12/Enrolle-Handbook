@@ -82,9 +82,9 @@ namespace EnrolleeHandbook.Models
 
         public void AddCourse(Course course, Course oldCourse = null)
         {
-            string coursePattern = @"^[а-яА-ЯҐґЄєІіЇї\s-.,]+$";
+            string coursePattern = @"^[A-Za-z\s\-.,]+$";
             string numberPattern = @"^[0-2][0-9]{2}$";
-            string areaPattern = @"^[а-яА-ЯҐґЄєІіЇї\s-,]+$";
+            string areaPattern = @"^[A-Za-z\s\-,]+$";
             foreach (Course currentCourse in Items)
             {
                 if (currentCourse.Name == course.Name &&
@@ -92,20 +92,20 @@ namespace EnrolleeHandbook.Models
                     currentCourse.University == course.University &&
                     oldCourse != currentCourse)
                 {
-                    throw new ArgumentException("Така спеціальність вже існує в даному університеті");
+                    throw new ArgumentException("This course already exists in this university");
                 }
             }
             if (!Regex.IsMatch(course.Name, coursePattern))
             {
-                throw new ArgumentException("Ви ввели неправильну спеціальність");
+                throw new ArgumentException("You entered an invalid course");
             }
             if (!Regex.IsMatch((course.Number / 100 == 0) ? ('0' + course.Number.ToString()) : course.Number.ToString(), numberPattern))
             {
-                throw new ArgumentException("Ви ввели неправильний номер спеціальності");
+                throw new ArgumentException("You entered an invalid course number");
             }
             if (!Regex.IsMatch(course.Area, areaPattern))
             {
-                throw new ArgumentException("Ви ввели неправильну галузь знань");
+                throw new ArgumentException("You entered an invalid field of study");
             }
             Items.Add(course);
             course.Added = true;

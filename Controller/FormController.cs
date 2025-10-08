@@ -87,13 +87,13 @@ namespace EnrolleeHandbook.Controller
             {
                 InitialData.initSavedCoursesCollection.Items.Remove(course);
                 course.Saved = false;
-                return "Додати до обраних";
+                return "Add to favorites";
             }
             else
             {
                 InitialData.initSavedCoursesCollection.Items.Add(course);
                 course.Saved = true;
-                return "Видалити з обраних";
+                return "Remove from favorites";
             }
         }
 
@@ -103,13 +103,13 @@ namespace EnrolleeHandbook.Controller
             {
                 InitialData.initSavedUniversitiesCollection.Items.Remove(university);
                 university.Saved = false;
-                return "Додати до обраних";
+                return "Add to favorites";
             }
             else
             {
                 InitialData.initSavedUniversitiesCollection.Items.Add(university);
                 university.Saved = true;
-                return "Видалити з обраних";
+                return "Remove from favorites";
             }
         }
 
@@ -216,12 +216,12 @@ namespace EnrolleeHandbook.Controller
             form.notesTextBox.Text = form.course.Note;
             string[] coef = Array.ConvertAll(form.course.Coefficients.Values.ToArray(), i => i.ToString());
             form.coefDataGridView.Rows.Add(coef);
-            form.changeButton.Text = "Додати до обраних";
+            form.changeButton.Text = "Add to favorites";
             foreach (Course c in InitialData.initSavedCoursesCollection.Items)
             {
                 if (c.Name == form.course.Name)
                 {
-                    form.changeButton.Text = "Видалити з обраних";
+                    form.changeButton.Text = "Remove from favorites";
                     break;
                 }
             }
@@ -242,15 +242,15 @@ namespace EnrolleeHandbook.Controller
             form.averagePointLabel.Text = form.averagePointLabel.Text + ":" + form.university.StringAveragePoint.ToString();
             form.minPointLabel.Text = form.minPointLabel.Text + ":" + form.university.MinimumPoint.ToString();
             form.foundYearLabel.Text = form.foundYearLabel.Text + ":" + form.university.FoundationYear.ToString();
-            form.hostelLabel.Text = form.university.IsWithHostel ? "Наявний гуртожиток" : "Гуртожитку немає";
+            form.hostelLabel.Text = form.university.IsWithHostel ? "Dormitory available" : "No dormitory";
             form.webSiteLabel.Text = form.university.Site;
             form.courseBindingSource.DataSource = form.university.Courses;
-            form.changeButton.Text = "Додати до обраних";
+            form.changeButton.Text = "Add to favorites";
             foreach (University un in InitialData.initSavedUniversitiesCollection.Items)
             {
                 if (un.Name == form.university.Name)
                 {
-                    form.changeButton.Text = "Видалити з обраних";
+                    form.changeButton.Text = "Remove from favorites";
                     break;
                 }
             }
@@ -279,15 +279,15 @@ namespace EnrolleeHandbook.Controller
                 form.pointNumericUpDown.Value = (decimal)form.course.Point;
                 form.studyingFormComboBox.Text = form.course.StudyingForm;
                 form.feeNumericUpDown.Value = form.course.Fee;
-                form.mathsNumericUpDown.Value = (decimal)form.course.Coefficients["Математика"];
-                form.ukrLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Українська мова"];
-                form.historyNumericUpDown.Value = (decimal)form.course.Coefficients["Історія України"];
-                form.forLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Іноземна мова"];
-                form.physicsNumericUpDown.Value = (decimal)form.course.Coefficients["Фізика"];
-                form.chemistryNumericUpDown.Value = (decimal)form.course.Coefficients["Хімія"];
-                form.biologyNumericUpDown.Value = (decimal)form.course.Coefficients["Біологія"];
-                form.geographyNumericUpDown.Value = (decimal)form.course.Coefficients["Географія"];
-                form.ukrLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Українська література"];
+                form.mathsNumericUpDown.Value = (decimal)form.course.Coefficients["Mathematics"];
+                form.ukrLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Ukrainian language"];
+                form.historyNumericUpDown.Value = (decimal)form.course.Coefficients["History of Ukraine"];
+                form.forLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Foreign language"];
+                form.physicsNumericUpDown.Value = (decimal)form.course.Coefficients["Physics"];
+                form.chemistryNumericUpDown.Value = (decimal)form.course.Coefficients["Chemistry"];
+                form.biologyNumericUpDown.Value = (decimal)form.course.Coefficients["Biology"];
+                form.geographyNumericUpDown.Value = (decimal)form.course.Coefficients["Geography"];
+                form.ukrLanguageNumericUpDown.Value = (decimal)form.course.Coefficients["Ukrainian literature"];
                 form.addToSavedCheckBox.Checked = form.course.Saved;
             }
             form.universityBindingSource.DataSource = InitialData.initUniversitiesCollection.Items;
@@ -320,20 +320,20 @@ namespace EnrolleeHandbook.Controller
 
         internal static string ShowSearchedUniversities(CoursesCollectionForm form)
         {
-            string coursePattern = @"^[а-яА-ЯҐґЄєІіЇї\s""-,]+$";
-            string studyingFormPattern = @"^[а-яА-ЯҐґЄєІіЇї\s]+$";
+            string coursePattern = @"^[A-Za-z\s""\-,]+$";
+            string studyingFormPattern = @"^[A-Za-z\s]+$";
             string numberPattern = @"^[0-9]+$";
             if (!Regex.IsMatch(form.nameTextBox.Text, coursePattern) && form.nameTextBox.Text != "")
             {
-                return "Ви ввели неправильну спеціальність";
+                return "You entered an invalid course";
             }
             if (!Regex.IsMatch(form.studyingFormTextBox.Text, studyingFormPattern) && form.studyingFormTextBox.Text != "")
             {
-                return "Ви ввели неправильну форму навчання";
+                return "You entered an invalid form of study";
             }
             if (!Regex.IsMatch(form.numberTextBox.Text, numberPattern) && form.numberTextBox.Text != "")
             {
-                return "Ви ввели неправильний номер спеціальності";
+                return "You entered an invalid course number";
             }
             form.tempCoursesCollection.Items = form.coursesCollection.FindCourses(form.nameTextBox.Text, form.studyingFormTextBox.Text, (float)form.minPointNumericUpDown.Value, form.numberTextBox.Text);
             form.courseBindingSource1.DataSource = form.tempCoursesCollection.Items;
@@ -342,20 +342,20 @@ namespace EnrolleeHandbook.Controller
 
         internal static string ShowSearchedUniversities(UniversitiesCollectionForm form)
         {
-            string universityPattern = @"^[а-яА-ЯҐґЄєІіЇї\s""-.,]+$";
-            string courseFormPattern = @"^[а-яА-ЯҐґЄєІіЇї\s""-,]+$";
-            string cityPattern = @"^[а-яА-ЯҐґЄєІіЇї\s]+$";
+            string universityPattern = @"^[A-Za-z\s""\-.,]+$";
+            string courseFormPattern = @"^[A-Za-z\s""\-,]+$";
+            string cityPattern = @"^[A-Za-z\s]+$";
             if (!Regex.IsMatch(form.universityNameTextBox.Text, universityPattern) && form.universityNameTextBox.Text != "")
             {
-                return "Ви ввели неправильний університет";
+                return "You entered an invalid university";
             }
             if (!Regex.IsMatch(form.courseNameTextBox.Text, courseFormPattern) && form.courseNameTextBox.Text != "")
             {
-                return "Ви ввели неправильну спеціальність";
+                return "You entered an invalid course";
             }
             if (!Regex.IsMatch(form.cityTextBox.Text, cityPattern) && form.cityTextBox.Text != "")
             {
-                return "Ви ввели неправильне місто";
+                return "You entered an invalid city";
             }
             form.tempUniversitiesCollection.Items = form.universitiesCollection.FindUniversities(form.universityNameTextBox.Text, form.courseNameTextBox.Text, form.cityTextBox.Text);
             form.universityBindingSource.DataSource = form.tempUniversitiesCollection.Items;
@@ -377,11 +377,11 @@ namespace EnrolleeHandbook.Controller
         {
             if (InitialData.isPreviousSaved)
             {
-                form.Text = "Перелік збережених спеціальностей";
+                form.Text = "List of saved courses";
             }
             else
             {
-                form.Text = "Перелік спеціальностей";
+                form.Text = "List of courses";
             }
             form.coursesCollection = coursesCollection;
             form.coursesCollection.SortItems("alphabet");
@@ -395,11 +395,11 @@ namespace EnrolleeHandbook.Controller
         {
             if (InitialData.isPreviousSaved)
             {
-                form.Text = "Перелік збережених університетів";
+                form.Text = "List of saved universities";
             }
             else
             {
-                form.Text = "Перелік університетів";
+                form.Text = "List of universities";
             }
             form.universitiesCollection = universitiesCollection;
             form.universitiesCollection.SortItems("alphabet");
@@ -439,7 +439,7 @@ namespace EnrolleeHandbook.Controller
             {
                 saveFileDialog.Filter = "Text Files (*.txt)|*.txt";
                 saveFileDialog.DefaultExt = "txt";
-                saveFileDialog.Title = "Збереження даних про спеціальність";
+                saveFileDialog.Title = "Save course data";
                 saveFileDialog.FileName = $"{course.Number} {course.Name}.txt";
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -461,13 +461,13 @@ namespace EnrolleeHandbook.Controller
                 saveFileDialog.DefaultExt = "txt";
                 if (InitialData.isPreviousSaved)
                 {
-                    saveFileDialog.Title = "Збереження переліку обраних спеціальностей";
-                    saveFileDialog.FileName = $"Збережені спецальності.txt";
+                    saveFileDialog.Title = "Save list of saved courses";
+                    saveFileDialog.FileName = $"Saved courses.txt";
                 }
                 else
                 {
-                    saveFileDialog.Title = "Збереження переліку спеціальностей";
-                    saveFileDialog.FileName = $"Всі спецальності.txt";
+                    saveFileDialog.Title = "Save list of courses";
+                    saveFileDialog.FileName = $"All courses.txt";
                 }
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -487,7 +487,7 @@ namespace EnrolleeHandbook.Controller
             {
                 saveFileDialog.Filter = "Text Files (*.txt)|*.txt";
                 saveFileDialog.DefaultExt = "txt";
-                saveFileDialog.Title = "Збереження даних про університет";
+                saveFileDialog.Title = "Save university data";
                 saveFileDialog.FileName = $"{university.Name}.txt";
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
@@ -509,13 +509,13 @@ namespace EnrolleeHandbook.Controller
                 saveFileDialog.DefaultExt = "txt";
                 if (InitialData.isPreviousSaved)
                 {
-                    saveFileDialog.Title = "Збереження переліку обраних університетів";
-                    saveFileDialog.FileName = $"Збережені університети.txt";
+                    saveFileDialog.Title = "Save list of saved universities";
+                    saveFileDialog.FileName = $"Saved universities.txt";
                 }
                 else
                 {
-                    saveFileDialog.Title = "Збереження переліку всіх університетів";
-                    saveFileDialog.FileName = $"Всі університети.txt";
+                    saveFileDialog.Title = "Save list of all universities";
+                    saveFileDialog.FileName = $"All universities.txt";
                 }
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -577,15 +577,15 @@ namespace EnrolleeHandbook.Controller
                 form.studyingFormComboBox.Text, (int)form.feeNumericUpDown.Value,
                 new Dictionary<string, float>
                 {
-                    {"Математика", (float)form.mathsNumericUpDown.Value },
-                    {"Українська мова", (float)form.ukrLanguageNumericUpDown.Value },
-                    {"Історія України", (float)form.historyNumericUpDown.Value },
-                    {"Іноземна мова", (float)form.forLanguageNumericUpDown.Value },
-                    {"Фізика", (float)form.physicsNumericUpDown.Value },
-                    {"Хімія", (float)form.chemistryNumericUpDown.Value },
-                    {"Біологія", (float)form.biologyNumericUpDown.Value },
-                    {"Географія", (float)form.geographyNumericUpDown.Value },
-                    {"Українська література", (float)form.ukrLiteratureNumericUpDown.Value },
+                    {"Mathematics", (float)form.mathsNumericUpDown.Value },
+                    {"Ukrainian language", (float)form.ukrLanguageNumericUpDown.Value },
+                    {"History of Ukraine", (float)form.historyNumericUpDown.Value },
+                    {"Foreign language", (float)form.forLanguageNumericUpDown.Value },
+                    {"Physics", (float)form.physicsNumericUpDown.Value },
+                    {"Chemistry", (float)form.chemistryNumericUpDown.Value },
+                    {"Biology", (float)form.biologyNumericUpDown.Value },
+                    {"Geography", (float)form.geographyNumericUpDown.Value },
+                    {"Ukrainian literature", (float)form.ukrLiteratureNumericUpDown.Value },
                 }
             );
             course.University = form.universityComboBox.Text;
@@ -646,12 +646,12 @@ namespace EnrolleeHandbook.Controller
             {
                 DeleteCourse(form.course);
                 form.Close();
-                MessageBox.Show("Спеціальність успішно змінено");
+                MessageBox.Show("Course successfully updated");
             }
             else
             {
                 form.Close();
-                MessageBox.Show("Спеціальність успішно додано");
+                MessageBox.Show("Course successfully added");
             }
         }
 
@@ -689,12 +689,12 @@ namespace EnrolleeHandbook.Controller
             {
                 FormController.DeleteUniversity(form.university);
                 form.Close();
-                MessageBox.Show("Університет успішно змінено");
+                MessageBox.Show("University successfully updated");
             }
             else
             {
                 form.Close();
-                MessageBox.Show("Університет успішно додано");
+                MessageBox.Show("University successfully added");
             }
         }
 
@@ -714,25 +714,25 @@ namespace EnrolleeHandbook.Controller
         internal static void CountPoint(CalculatorForm form)
         {
             Course courseToCount = (Course)form.courseComboBox.SelectedItem;
-            float rezult = ((float)form.mathNumericUpDown.Value * courseToCount.Coefficients["Математика"] +
-                (float)form.ukrLanguageNumericUpDown.Value * courseToCount.Coefficients["Українська мова"] +
-                (float)form.historyNumericUpDown.Value * courseToCount.Coefficients["Історія України"] +
+            float rezult = ((float)form.mathNumericUpDown.Value * courseToCount.Coefficients["Mathematics"] +
+                (float)form.ukrLanguageNumericUpDown.Value * courseToCount.Coefficients["Ukrainian language"] +
+                (float)form.historyNumericUpDown.Value * courseToCount.Coefficients["History of Ukraine"] +
                 (float)form.fourthSubjectNumericUpDown.Value * courseToCount.Coefficients[(string)form.fourthsubjectComboBox.SelectedItem]) /
-                (courseToCount.Coefficients["Математика"] + courseToCount.Coefficients["Українська мова"] +
-                courseToCount.Coefficients["Історія України"] + courseToCount.Coefficients[(string)form.fourthsubjectComboBox.SelectedItem]) +
+                (courseToCount.Coefficients["Mathematics"] + courseToCount.Coefficients["Ukrainian language"] +
+                courseToCount.Coefficients["History of Ukraine"] + courseToCount.Coefficients[(string)form.fourthsubjectComboBox.SelectedItem]) +
                 (float)form.additionalPointsNumericUpDown.Value;
             if (rezult > 200)
             {
                 rezult = 200;
             }
-            form.rezultLabel.Text = "Конкурсний бал: " + rezult.ToString("0.##");
+            form.rezultLabel.Text = "Competitive score: " + rezult.ToString("0.##");
             if (rezult < courseToCount.Point)
             {
-                form.conclusionLabel.Text = "Ваш бал занизький для даної спеціальності";
+                form.conclusionLabel.Text = "Your score is too low for this course";
             }
             else
             {
-                form.conclusionLabel.Text = "Ваш бал задовільний для даної спеціальності";
+                form.conclusionLabel.Text = "Your score is sufficient for this course";
             }
         }
     }

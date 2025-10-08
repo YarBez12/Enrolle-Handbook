@@ -86,7 +86,7 @@
             this.sortGroupBox.Size = new System.Drawing.Size(285, 174);
             this.sortGroupBox.TabIndex = 11;
             this.sortGroupBox.TabStop = false;
-            this.sortGroupBox.Text = "Сортування";
+            this.sortGroupBox.Text = "Sorting";
             // 
             // areaRadioButton
             // 
@@ -95,7 +95,7 @@
             this.areaRadioButton.Name = "areaRadioButton";
             this.areaRadioButton.Size = new System.Drawing.Size(160, 24);
             this.areaRadioButton.TabIndex = 4;
-            this.areaRadioButton.Text = "За галуззю знань";
+            this.areaRadioButton.Text = "By area";
             this.areaRadioButton.UseVisualStyleBackColor = true;
             this.areaRadioButton.CheckedChanged += new System.EventHandler(this.areaRadioButton_CheckedChanged);
             // 
@@ -106,7 +106,7 @@
             this.feeRadioButton.Name = "feeRadioButton";
             this.feeRadioButton.Size = new System.Drawing.Size(109, 24);
             this.feeRadioButton.TabIndex = 3;
-            this.feeRadioButton.Text = "За платою";
+            this.feeRadioButton.Text = "By fee";
             this.feeRadioButton.UseVisualStyleBackColor = true;
             this.feeRadioButton.CheckedChanged += new System.EventHandler(this.feeRadioButton_CheckedChanged);
             // 
@@ -117,7 +117,7 @@
             this.pointRadioButton.Name = "pointRadioButton";
             this.pointRadioButton.Size = new System.Drawing.Size(190, 24);
             this.pointRadioButton.TabIndex = 2;
-            this.pointRadioButton.Text = "За конкурсним балом";
+            this.pointRadioButton.Text = "By passing score";
             this.pointRadioButton.UseVisualStyleBackColor = true;
             this.pointRadioButton.CheckedChanged += new System.EventHandler(this.pointRadioButton_CheckedChanged);
             // 
@@ -128,7 +128,7 @@
             this.studentsCountRadioButton.Name = "studentsCountRadioButton";
             this.studentsCountRadioButton.Size = new System.Drawing.Size(199, 24);
             this.studentsCountRadioButton.TabIndex = 1;
-            this.studentsCountRadioButton.Text = "За кількістю студентів";
+            this.studentsCountRadioButton.Text = "By applicants count";
             this.studentsCountRadioButton.UseVisualStyleBackColor = true;
             this.studentsCountRadioButton.CheckedChanged += new System.EventHandler(this.studentsCountRadioButton_CheckedChanged);
             // 
@@ -141,7 +141,7 @@
             this.alphabetRadioButton.Size = new System.Drawing.Size(135, 24);
             this.alphabetRadioButton.TabIndex = 0;
             this.alphabetRadioButton.TabStop = true;
-            this.alphabetRadioButton.Text = "За алфавітом";
+            this.alphabetRadioButton.Text = "Alphabetically";
             this.alphabetRadioButton.UseVisualStyleBackColor = true;
             this.alphabetRadioButton.CheckedChanged += new System.EventHandler(this.alphabetRadioButton_CheckedChanged);
             // 
@@ -153,7 +153,7 @@
             this.minPointLabel.Name = "minPointLabel";
             this.minPointLabel.Size = new System.Drawing.Size(135, 20);
             this.minPointLabel.TabIndex = 4;
-            this.minPointLabel.Text = "Мінімальний бал";
+            this.minPointLabel.Text = "Minimum score";
             // 
             // studyingFormTextBox
             // 
@@ -170,7 +170,7 @@
             this.studyingFormLabel.Name = "studyingFormLabel";
             this.studyingFormLabel.Size = new System.Drawing.Size(138, 20);
             this.studyingFormLabel.TabIndex = 2;
-            this.studyingFormLabel.Text = "Форма навчання";
+            this.studyingFormLabel.Text = "Study form";
             // 
             // nameTextBox
             // 
@@ -187,7 +187,7 @@
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(116, 20);
             this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "Спеціальність";
+            this.nameLabel.Text = "Course";
             // 
             // numberTextBox
             // 
@@ -204,7 +204,7 @@
             this.numberLabel.Name = "numberLabel";
             this.numberLabel.Size = new System.Drawing.Size(59, 20);
             this.numberLabel.TabIndex = 6;
-            this.numberLabel.Text = "Номер";
+            this.numberLabel.Text = "Number";
             // 
             // searchButton
             // 
@@ -213,7 +213,7 @@
             this.searchButton.Name = "searchButton";
             this.searchButton.Size = new System.Drawing.Size(103, 34);
             this.searchButton.TabIndex = 8;
-            this.searchButton.Text = "Пошук";
+            this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
@@ -224,7 +224,7 @@
             this.resetButton.Name = "resetButton";
             this.resetButton.Size = new System.Drawing.Size(103, 34);
             this.resetButton.TabIndex = 10;
-            this.resetButton.Text = "Скинути";
+            this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
@@ -235,7 +235,7 @@
             this.goButton.Name = "goButton";
             this.goButton.Size = new System.Drawing.Size(152, 34);
             this.goButton.TabIndex = 14;
-            this.goButton.Text = "Переглянути";
+            this.goButton.Text = "View";
             this.goButton.UseVisualStyleBackColor = true;
             this.goButton.Click += new System.EventHandler(this.goButton_Click);
             // 
@@ -246,7 +246,7 @@
             this.returnButton.Name = "returnButton";
             this.returnButton.Size = new System.Drawing.Size(152, 34);
             this.returnButton.TabIndex = 15;
-            this.returnButton.Text = "Назад";
+            this.returnButton.Text = "Back";
             this.returnButton.UseVisualStyleBackColor = true;
             this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
             // 
@@ -307,7 +307,7 @@
             // Point
             // 
             this.Point.DataPropertyName = "Point";
-            this.Point.HeaderText = "Прохідний бал";
+            this.courseName.HeaderText = "Name";
             this.Point.Name = "Point";
             this.Point.ReadOnly = true;
             this.Point.Width = 90;
@@ -315,14 +315,14 @@
             // Saved
             // 
             this.Saved.DataPropertyName = "Saved";
-            this.Saved.HeaderText = "Збережено";
+            this.Saved.HeaderText = "Saved";
             this.Saved.Name = "Saved";
             this.Saved.ReadOnly = true;
             // 
             // Added
             // 
             this.Added.DataPropertyName = "Added";
-            this.Added.HeaderText = "Додано";
+            this.Added.HeaderText = "Added";
             this.Added.Name = "Added";
             this.Added.ReadOnly = true;
             this.Added.Width = 70;
@@ -330,7 +330,7 @@
             // Number
             // 
             this.Number.DataPropertyName = "Number";
-            this.Number.HeaderText = "Номер";
+            this.Number.HeaderText = "Number";
             this.Number.Name = "Number";
             this.Number.ReadOnly = true;
             this.Number.Visible = false;
@@ -411,7 +411,7 @@
             this.loadButton.Name = "loadButton";
             this.loadButton.Size = new System.Drawing.Size(119, 94);
             this.loadButton.TabIndex = 13;
-            this.loadButton.Text = "Завантажити інформацію";
+            this.loadButton.Text = "Export information";
             this.loadButton.UseVisualStyleBackColor = true;
             this.loadButton.Click += new System.EventHandler(this.loadButton_Click);
             // 
@@ -422,7 +422,7 @@
             this.addCourseButton.Name = "addCourseButton";
             this.addCourseButton.Size = new System.Drawing.Size(124, 94);
             this.addCourseButton.TabIndex = 12;
-            this.addCourseButton.Text = "Додати спеціальність";
+            this.addCourseButton.Text = "Add course";
             this.addCourseButton.UseVisualStyleBackColor = true;
             this.addCourseButton.Click += new System.EventHandler(this.addCourseButton_Click);
             // 
@@ -430,14 +430,14 @@
             // 
             this.courseName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.courseName.DataPropertyName = "Name";
-            this.courseName.HeaderText = "Назва";
+            this.courseName.HeaderText = "Name";
             this.courseName.Name = "courseName";
             this.courseName.ReadOnly = true;
             // 
             // StudyingForm
             // 
             this.StudyingForm.DataPropertyName = "StudyingForm";
-            this.StudyingForm.HeaderText = "Форма навчання";
+            this.StudyingForm.HeaderText = "Study form";
             this.StudyingForm.Name = "StudyingForm";
             this.StudyingForm.ReadOnly = true;
             this.StudyingForm.Width = 80;
@@ -477,7 +477,7 @@
             this.MinimumSize = new System.Drawing.Size(917, 609);
             this.Name = "CoursesCollectionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Перелік спеціальностей";
+            this.Text = "List of courses";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CoursesCollectionForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CoursesCollectionForm_KeyDown);
             this.sortGroupBox.ResumeLayout(false);

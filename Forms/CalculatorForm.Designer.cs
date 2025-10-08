@@ -69,7 +69,7 @@
             this.courseLabel.Name = "courseLabel";
             this.courseLabel.Size = new System.Drawing.Size(142, 25);
             this.courseLabel.TabIndex = 2;
-            this.courseLabel.Text = "Спеціальність";
+            this.courseLabel.Text = "Course";
             // 
             // courseComboBox
             // 
@@ -95,19 +95,19 @@
             this.fourthSubjectLabel.Name = "fourthSubjectLabel";
             this.fourthSubjectLabel.Size = new System.Drawing.Size(204, 25);
             this.fourthSubjectLabel.TabIndex = 4;
-            this.fourthSubjectLabel.Text = "Четвертий предмет";
+            this.fourthSubjectLabel.Text = "Fourth subject";
             // 
             // fourthsubjectComboBox
             // 
             this.fourthsubjectComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fourthsubjectComboBox.FormattingEnabled = true;
             this.fourthsubjectComboBox.Items.AddRange(new object[] {
-            "Фізика",
-            "Іноземна мова",
-            "Біологія",
-            "Хімія",
-            "Українська література",
-            "Географія"});
+             "Physics",
+             "Foreign language",
+             "Biology",
+             "Chemistry",
+             "Ukrainian literature",
+             "Geography"});
             this.fourthsubjectComboBox.Location = new System.Drawing.Point(259, 150);
             this.fourthsubjectComboBox.Name = "fourthsubjectComboBox";
             this.fourthsubjectComboBox.Size = new System.Drawing.Size(421, 21);
@@ -121,7 +121,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 25);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Бали";
+            this.label3.Text = "Points";
             // 
             // mathsLabel
             // 
@@ -131,7 +131,7 @@
             this.mathsLabel.Name = "mathsLabel";
             this.mathsLabel.Size = new System.Drawing.Size(131, 25);
             this.mathsLabel.TabIndex = 7;
-            this.mathsLabel.Text = "Математика";
+            this.mathsLabel.Text = "Mathematics";
             // 
             // mathNumericUpDown
             // 
@@ -195,7 +195,7 @@
             this.ukrLanguageLabel.Name = "ukrLanguageLabel";
             this.ukrLanguageLabel.Size = new System.Drawing.Size(165, 25);
             this.ukrLanguageLabel.TabIndex = 9;
-            this.ukrLanguageLabel.Text = "Українська мова";
+            this.ukrLanguageLabel.Text = "Ukrainian language";
             // 
             // historyNumericUpDown
             // 
@@ -232,7 +232,7 @@
             this.historyLabel.Name = "historyLabel";
             this.historyLabel.Size = new System.Drawing.Size(152, 25);
             this.historyLabel.TabIndex = 11;
-            this.historyLabel.Text = "Історія України";
+            this.historyLabel.Text = "History of Ukraine";
             // 
             // fourthSubjectNumericUpDown
             // 
@@ -269,7 +269,7 @@
             this.fourthSubjectMarkLabel.Name = "fourthSubjectMarkLabel";
             this.fourthSubjectMarkLabel.Size = new System.Drawing.Size(204, 25);
             this.fourthSubjectMarkLabel.TabIndex = 13;
-            this.fourthSubjectMarkLabel.Text = "Четвертий предмет";
+            this.fourthSubjectMarkLabel.Text = "Fourth subject";
             // 
             // additionalPointsNumericUpDown
             // 
@@ -296,7 +296,7 @@
             this.additionalPointsLabel.Name = "additionalPointsLabel";
             this.additionalPointsLabel.Size = new System.Drawing.Size(158, 25);
             this.additionalPointsLabel.TabIndex = 15;
-            this.additionalPointsLabel.Text = "Додаткові бали";
+            this.additionalPointsLabel.Text = "Additional points";
             // 
             // countButton
             // 
@@ -305,7 +305,7 @@
             this.countButton.Name = "countButton";
             this.countButton.Size = new System.Drawing.Size(164, 33);
             this.countButton.TabIndex = 18;
-            this.countButton.Text = "Розрахувати";
+            this.countButton.Text = "Calculate";
             this.countButton.UseVisualStyleBackColor = true;
             this.countButton.Click += new System.EventHandler(this.countButton_Click);
             // 
@@ -317,7 +317,7 @@
             this.universityLabel.Name = "universityLabel";
             this.universityLabel.Size = new System.Drawing.Size(127, 25);
             this.universityLabel.TabIndex = 0;
-            this.universityLabel.Text = "Університет";
+            this.universityLabel.Text = "University";
             // 
             // universityComboBox
             // 
@@ -342,7 +342,7 @@
             this.returnButton.Name = "returnButton";
             this.returnButton.Size = new System.Drawing.Size(164, 33);
             this.returnButton.TabIndex = 19;
-            this.returnButton.Text = "Назад";
+            this.returnButton.Text = "Back";
             this.returnButton.UseVisualStyleBackColor = true;
             this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
             // 
@@ -354,7 +354,7 @@
             this.rezultLabel.Name = "rezultLabel";
             this.rezultLabel.Size = new System.Drawing.Size(157, 25);
             this.rezultLabel.TabIndex = 17;
-            this.rezultLabel.Text = "Конкурсний бал";
+            this.rezultLabel.Text = "Competitive score";
             // 
             // conclusionLabel
             // 
@@ -397,7 +397,7 @@
             this.MinimumSize = new System.Drawing.Size(917, 609);
             this.Name = "CalculatorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Калькулятор конкурсного балу";
+            this.Text = "Competitive score calculator";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CalculatorForm_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CalculatorForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.courseBindingSource)).EndInit();

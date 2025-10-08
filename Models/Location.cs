@@ -10,18 +10,18 @@ namespace EnrolleeHandbook.Models
     {
         internal static List<string> allCities = new List<string>
         {
-            "Київ", "Севастополь", "Вінниця", "Луцьк", "Дніпро", "Донецьк",
-            "Житомир", "Ужгород", "Запоріжжя", "Івано-Франківськ", "Кропивницький",
-            "Луганськ", "Львів", "Миколаїв", "Одеса", "Полтава", "Рівне", "Суми",
-            "Тернопіль", "Харків", "Херсон", "Хмельницький", "Черкаси", "Чернівці", "Чернігів"
+            "Kyiv", "Sevastopol", "Vinnytsia", "Lutsk", "Dnipro", "Donetsk",
+            "Zhytomyr", "Uzhhorod", "Zaporizhzhia", "Ivano-Frankivsk", "Kropyvnytskyi",
+            "Luhansk", "Lviv", "Mykolaiv", "Odesa", "Poltava", "Rivne", "Sumy",
+            "Ternopil", "Kharkiv", "Kherson", "Khmelnytskyi", "Cherkasy", "Chernivtsi", "Chernihiv"
         };
-        private string city;
+    private string city;
         private string street;
         private int number;
         private int code;
 
-        public Location(string city = "Харків",
-            string street = "Проспект Науки",
+        public Location(string city = "Kharkiv",
+            string street = "Nauky Avenue",
             int number = 14,
             int code = 61166)
         {
